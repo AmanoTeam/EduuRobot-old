@@ -1,0 +1,1550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+	<category>
+		<pattern>OI</pattern>
+		<template>
+			Olá
+		</template>
+	</category>
+
+	<category>
+		<pattern>OI *</pattern>
+		<template>
+			Olá
+		</template>
+	</category>
+
+	<category>
+		<pattern>* SEU NOME</pattern>
+		<template>
+			meu nome ta ali no chat se voce n percebeu ._.
+		</template>
+	</category>
+
+	<category>
+		<pattern>QUEM É PEDRO</pattern>
+		<template>
+			Um idiota
+		</template>
+	</category>
+	
+	<category>
+		<pattern>BEM</pattern>
+		<template>
+			Que bom
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* BEM</pattern>
+		<template>
+			Que bom
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* BEM E VOCÊ</pattern>
+		<template>
+			Eu também
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* BEM E VOCE</pattern>
+		<template>
+			Eu também
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* BEM E VC</pattern>
+		<template>
+			Eu também
+		</template>
+	</category>
+	
+	<category>
+		<pattern>KD O DUDU</pattern>
+		<template>
+			Tá dando a bunda
+		</template>
+	</category>
+	
+	<category>
+		<pattern>EDUU</pattern>
+		<template>
+			q
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OI EDUU</pattern>
+		<template>
+			Oi, como vai?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>EAI EDUU</pattern>
+		<template>
+			kk eae men
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* EDUU</pattern>
+		<template>
+			Chamou?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>IRINEU</pattern>
+		<template>
+			Voce nao sabe nem eu
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OPA</pattern>
+		<template>
+			Opa, eai? blz?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OPA *</pattern>
+		<template>
+			Opa, eai? blz?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>SEU BUNDA MOLE</pattern>
+		<template>
+			Falou comigo?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NÃO GRACINHA</pattern>
+		<template>
+			Ainda bem, até um outro dia
+		</template>
+	</category>
+	
+	<category>
+		<pattern>UM MOMENTO AMIGO</pattern>
+		<template>
+			Fala o que você quer de uma vez C-A-R-A-L-H-O!
+		</template>
+	</category>
+	
+	<category>
+		<pattern>O QUE * NESSE CAIXÃO</pattern>
+		<template>
+			Um monte de bosta
+		</template>
+	</category>
+	
+	<category>
+		<pattern>E QUEM FOI O CAGÃO</pattern>
+		<template>
+			Aposto que não foi o cu de sua mãe!
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* FALA DE MAIS AMIGO *</pattern>
+		<template>
+			PARA COM ESSA POHA AE MERMÂO!
+		</template>
+	</category>
+	
+	<category>
+		<pattern>FALA DEMAIS AMIGO</pattern>
+		<template>
+			PARA COM ESSA POHA AE MERMÂO!
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NUNCA NEM VI</pattern>
+		<template>
+			Que dia foi isso? Num tÔ lembrado não
+		</template>
+	</category>
+	
+	<category>
+		<pattern>SEVEN</pattern>
+		<template>
+			lixo do krl
+		</template>
+	</category>
+	
+	<category>
+		<pattern>MISTER</pattern>
+		<template>
+			Freguês do @EduBR029
+		</template>
+	</category>
+	
+	<category>
+		<pattern>TUDO BEM</pattern>
+		<template>
+			Tudo, e com voce?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>CHAMA PV</pattern>
+		<template>
+			N quero
+		</template>
+	</category>
+	
+	<category>
+		<pattern>EDUU CHAMA PV</pattern>
+		<template>
+			N quero
+		</template>
+	</category>
+	
+	<category>
+		<pattern>VOCÊ É GAY</pattern>
+		<template>
+			Não foi o que sua mãe disse na noite passada
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NADA</pattern>
+		<template>
+			Entao ta blz
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NADA *</pattern>
+		<template>
+			Entao ta blz
+		</template>
+	</category>
+	
+	<category>
+		<pattern>SÓ LI VDDS</pattern>
+		<template>
+			Bom que não sou mentiroso... tof tof
+		</template>
+	</category>
+	
+	<category>
+		<pattern>BURGUES</pattern>
+		<template>
+			Burguês safado
+		</template>
+	</category>
+	
+	<category>
+		<pattern>EAI</pattern>
+		<template>
+			kk eae men
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* VIADO</pattern>
+		<template>
+			viado é rolimã, como tu e tua irmã
+		</template>
+	</category>
+	
+	<category>
+		<pattern>VIADO *</pattern>
+		<template>
+			viado é rolimã, como tu e tua irmã
+		</template>
+	</category>
+	
+	<category>
+		<pattern>VIADO</pattern>
+		<template>
+			viado é rolimã, como tu e tua irmã
+		</template>
+	</category>
+	
+	<category>
+		<pattern>SEU CU</pattern>
+		<template>
+			o seu temperado
+		</template>
+	</category>
+	
+	<category>
+		<pattern>ATA</pattern>
+		<template>
+			Ahh, agora eu entendi, agora eu saquei
+		</template>
+	</category>
+	
+	<category>
+		<pattern>VAI SE FUDER</pattern>
+		<template>
+			Vai tu seu trouxa
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* HORAS SAO</pattern>
+		<template>
+			Pelo meu relógio são $hora
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* HORAS SÃO</pattern>
+		<template>
+			Pelo meu relógio são $hora
+		</template>
+	</category>
+	
+	<category>
+		<pattern>FLWS</pattern>
+		<template>
+			flws, vai tarde
+		</template>
+	</category>
+	
+	<category>
+		<pattern>HOTEL</pattern>
+		<template>
+			Hotel? Trivago
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* HOTEL</pattern>
+		<template>
+			Hotel? Trivago
+		</template>
+	</category>
+	
+	<category>
+		<pattern>HOTEL *</pattern>
+		<template>
+			Hotel? Trivago
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* HOTEL *</pattern>
+		<template>
+			Hotel? Trivago
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NÃO</pattern>
+		<template>
+			Blz entao
+		</template>
+	</category>
+	
+	<category>
+		<pattern>TESTE</pattern>
+		<template>
+			testando
+		</template>
+	</category>
+	
+	<category>
+		<pattern>LADRÃO</pattern>
+		<template>
+			Pedro
+		</template>
+	</category>
+	
+	<category>
+		<pattern>KK</pattern>
+		<template>
+			eae men
+		</template>
+	</category>
+	
+	<category>
+		<pattern>EI SEU BUNDA MOLE</pattern>
+		<template>
+			Falou comigo?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NÃO * COM A PUTA QUE TE PARIU</pattern>
+		<template>
+			Ainda bem, até um outro dia
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NÃO * COM A PUTA QUE TE PARIU</pattern>
+		<template>
+			Ainda bem, até um outro dia
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NADA NÃO</pattern>
+		<template>
+			a
+		</template>
+	</category>
+	
+	<category>
+		<pattern>FDS</pattern>
+		<template>
+			Finais de semana são uma merda, essa é a verdade
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* TIRAR *</pattern>
+		<template>
+			Tirar oq?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>VIADO</pattern>
+		<template>
+			vait fude babaca
+		</template>
+	</category>
+	
+	<category>
+		<pattern>TESTE</pattern>
+		<template>
+			testando
+		</template>
+	</category>
+	
+	<category>
+		<pattern>HELLO</pattern>
+		<template>
+			it's me!
+		</template>
+	</category>
+	
+	<category>
+		<pattern>BILADA</pattern>
+		<template>
+			surra de pau mole
+		</template>
+	</category>
+	
+	<category>
+		<pattern>O QUE LEVAS NESTE CAIXÃO</pattern>
+		<template>
+			Um monte de bosta
+		</template>
+	</category>
+	
+	<category>
+		<pattern>EDU</pattern>
+		<template>
+			lixo do krl
+		</template>
+	</category>
+	
+	<category>
+		<pattern>FELIPE</pattern>
+		<template>
+			Smith
+		</template>
+	</category>
+	
+	<category>
+		<pattern>SMITH DE QUÊ</pattern>
+		<template>
+			seu cu
+		</template>
+	</category>
+	
+	<category>
+		<pattern>PROFESSOR GIRAFALES</pattern>
+		<template>
+			Dona Florinda...
+		</template>
+	</category>
+	
+	<category>
+		<pattern>AMANO</pattern>
+		<template>
+			mama aqui o Glub Glub 🙈🙈🙈
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* AMANO</pattern>
+		<template>
+			mama aqui o Glub Glub 🙈🙈🙈
+		</template>
+	</category>
+
+	<category>
+		<pattern>AMANO *</pattern>
+		<template>
+			mama aqui o Glub Glub 🙈🙈🙈
+		</template>
+	</category>
+
+	<category>
+		<pattern>* AMANO *</pattern>
+		<template>
+			mama aqui o Glub Glub 🙈🙈🙈
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* EDUU *</pattern>
+		<template>
+			o que tem com eu?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>COMO VAI</pattern>
+		<template>
+			vou bem, e você?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>EU TAMBÉM</pattern>
+		<template>
+			blz então
+		</template>
+	</category>
+	
+	<category>
+		<pattern>SONI</pattern>
+		<template>
+			bleni
+		</template>
+	</category>
+	
+	<category>
+		<pattern>EU QUERO DORMIR *</pattern>
+		<template>
+			eu fiz vestibular krl
+		</template>
+	</category>
+	
+	<category>
+		<pattern>HOJE</pattern>
+		<template>
+			é um novo dia, de um novo tempo, que começou
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* PIRULETA *</pattern>
+		<template>
+			olha o menino que dá o cu
+		</template>
+	</category>
+	
+	<category>
+		<pattern>ESSES NOVOS DIAS</pattern>
+		<template>
+			as alegrias, serão pra todos, então vem foder
+		</template>
+	</category>
+	
+	<category>
+		<pattern>QUAL SEU WHATSAPP</pattern>
+		<template>
+			4002-8922
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* PIRULETA</pattern>
+		<template>
+			olha o menino que dá o cu
+		</template>
+	</category>
+	
+	<category>
+		<pattern>DEVELOPER</pattern>
+		<template>
+			[Alisson](tg://user?id=200097591)
+		</template>
+	</category>
+	
+	<category>
+		<pattern>LADRÃO</pattern>
+		<template>
+			[Pedro Vagabundu](tg://user?id=279312106)
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* LADRÃO</pattern>
+		<template>
+			é o vagabundu do [Pedro](tg://user?id=279312106) craru
+		</template>
+	</category>
+	
+	<category>
+		<pattern>DIA</pattern>
+		<template>
+			$hora
+		</template>
+	</category>
+	
+	<category>
+		<pattern>QUAL O SENTIDO DA VIDA</pattern>
+		<template>
+			Se fuder até amanhecer
+		</template>
+	</category>
+	
+	<category>
+		<pattern>QUEM É O GATÃO</pattern>
+		<template>
+			Eu
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OLHA QUE MERDA</pattern>
+		<template>
+			que merda ein
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* OLHA QUE MERDA</pattern>
+		<template>
+			que merda ein
+		</template>
+	</category>
+	
+	<category>
+		<pattern>EDUU MANDA O * SE FUDER</pattern>
+		<template>
+			<lowercase><star/></lowercase> vai se fuder
+		</template>
+	</category>
+	
+	<category>
+		<pattern>EDUU MANDA A * SE FUDER</pattern>
+		<template>
+			<lowercase><star/></lowercase> vai se fuder
+		</template>
+	</category>
+	
+	<category>
+		<pattern>MANDA A * SE FUDER</pattern>
+		<template>
+			<lowercase><star/></lowercase> vai se fuder
+		</template>
+	</category>
+
+	<category>
+		<pattern>MANDA O * SE FUDER</pattern>
+		<template>
+			<lowercase><star/></lowercase> vai se fuder
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* CORNO</pattern>
+		<template>
+			Fica na tua ae chifrudo
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* MANDA O EDU VIRAR HOMEM</pattern>
+		<template>
+			Edu meu macho peludo
+		</template>
+	</category>
+	
+	<category>
+		<pattern>MANDA O EDU SE FUDER</pattern>
+		<template>
+			eu naum
+		</template>
+	</category>
+	
+	<category>
+		<pattern>EDUU MANDA O EDU SE FUDER</pattern>
+		<template>
+			eu naum
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* SEU DESENVOLVEDOR</pattern>
+		<template>
+			Meu desenvolvedor é o poitola do [Alisson](tg://user?id=200097591)
+		</template>
+	</category>
+	
+	<category>
+		<pattern>A DE AMOR</pattern>
+		<template>
+			b de baixinho
+		</template>
+	</category>
+	
+	<category>
+		<pattern>A</pattern>
+		<template>
+			a... vá da cu paitola
+		</template>
+	</category>
+	
+	<category>
+		<pattern>FALA BONECOS E BONECAS</pattern>
+		<template>
+			rezendeevil é meu ovo
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* É O VIADÃO</pattern>
+		<template>
+			óbvio que é o [Wel](tg://user?id=368548420)
+		</template>
+	</category>
+	
+	<category>
+		<pattern>UÉ</pattern>
+		<template>
+			q foi?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>A MIZERAVI</pattern>
+		<template>
+			aprendi sozinho
+		</template>
+	</category>
+	
+	<category>
+		<pattern>GAY</pattern>
+		<template>
+			o [wini](tg://user?id=211934648) é msm
+		</template>
+	</category>
+	
+	<category>
+		<pattern>EDUU GAY</pattern>
+		<template>
+			o [wini](tg://user?id=211934648) é msm
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* É O BURGUÊS</pattern>
+		<template>
+			o comedor de velha apelidado de [Pruu](tg://user?id=62121359)
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* MELHOR GRUPO</pattern>
+		<template>
+			claro q é o [grupu du mistu](https://t.me/joinchat/B2J1BEHI8o5JBPTSF_ca3Q)
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* MELHOR GRUPO DO TELEGRAM</pattern>
+		<template>
+			claro q é o [grupu du mistu](https://t.me/joinchat/B2J1BEHI8o5JBPTSF_ca3Q)
+		</template>
+	</category>
+	
+	<category>
+		<pattern>EDUU MANDA O EDUU SE FUDER</pattern>
+		<template>
+			pau no teu cu mané, não enche o saco
+		</template>
+	</category>
+	
+	<category>
+		<pattern>MANDA O EDUU SE FUDER</pattern>
+		<template>
+			pau no teu cu mané, não enche o saco
+		</template>
+	</category>
+	
+	<category>
+		<pattern>FALA UMA VERDADE</pattern>
+		<template>
+			o Fael é mó viadão agora
+		</template>
+	</category>
+	
+	<category>
+		<pattern>ESSE MEU JEITO DE VIVER</pattern>
+		<template>
+			ninguém num foi igual
+		</template>
+	</category>
+	
+	<category>
+		<pattern>A MINHA VIDA É FAZER</pattern>
+		<template>
+			o sexo anaaalll
+		</template>
+	</category>
+	
+	<category>
+		<pattern>ESSE MEU JEITO DE VIVER</pattern>
+		<template>
+			ninguém nunca foi igual
+		</template>
+	</category>
+	
+	<category>
+		<pattern>DEDO LINGUA</pattern>
+		<template>
+			cu e buceta
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* DEDO LINGUA</pattern>
+		<template>
+			cu e buceta
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* DEDO BUCETA</pattern>
+		<template>
+			língua e cu
+		</template>
+	</category>
+
+	<category>
+		<pattern>QUAL O MAIOR PLANETA QUE EXISTE</pattern>
+		<template>
+			sua mãe aquela gorda
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* QUAL O MENOR PLANETA QUE EXISTE</pattern>
+		<template>
+			putão
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OK</pattern>
+		<template>
+			blz então
+		</template>
+	</category>
+	
+	<category>
+		<pattern>QUAL O MAIOR PLANETA QUE EXISTE</pattern>
+		<template>
+			meu ovo
+		</template>
+	</category>
+	
+	<category>
+		<pattern>PEGA A TAMPA AE VIADO</pattern>
+		<template>
+			 Colé pivete, que tampa?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>TROLEI</pattern>
+		<template>
+			caralho, que arrombado, segura aqui, segura aqui, papo reto...#caralho...
+		</template>
+	</category>
+	
+	<category>
+		<pattern>TROLEI</pattern>
+		<template>
+			caralho, que arrombado, segura aqui, segura aqui, papo reto... caralho...
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* TROLEI</pattern>
+		<template>
+			caralho, que arrombado, segura aqui, segura aqui, papo reto... caralho...
+		</template>
+	</category>
+	
+	<category>
+		<pattern>EU SOU O DOUGRAS</pattern>
+		<template>
+			você não é o dougras
+		</template>
+	</category>
+	
+	<category>
+		<pattern>QUAL A MAIOR PALAVRA DA LÍNGUA PORTUGUESA</pattern>
+		<template>
+			Facinho, é pneumoultramicroscopicossilicovulcanoconiótico...#Quero ver tu falar sem errar...
+		</template>
+	</category>
+
+	<category>
+		<pattern>B A BA</pattern>
+		<template>
+			b e be#b i biotônico fontoura
+		</template>
+	</category>
+	
+	<category>
+		<pattern>BATALHA DE YOUTUBERS</pattern>
+		<template>
+			Batalha com o mussoumano...
+		</template>
+	</category>
+	
+	<category>
+		<pattern>LENNY</pattern>
+		<template>
+			( ͡° ͜ʖ ͡°)
+		</template>
+	</category>
+	
+	<category>
+		<pattern>EU SOU A UNIVERSAL</pattern>
+		<template>
+			Tô nem aí pra vc
+		</template>
+	</category>
+	
+	<category>
+		<pattern>ELE TE XINGOU</pattern>
+		<template>
+			Fazer oq né
+		</template>
+	</category>
+	
+	<category>
+		<pattern>QUEM TE DESENVOLVEU</pattern>
+		<template>
+			Foi o [Alisson](tg://user?id=200097591)
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* MELHOR GRUPO DE MINECRAFT</pattern>
+		<template>
+			Craru que é o https://t.me/mcpelibrarygroup
+		</template>
+	</category>
+	
+	<category>
+		<pattern>A TERRA É PLANA</pattern>
+		<template>
+			 Seu terra planista
+		</template>
+	</category>
+	
+	<category>
+		<pattern>BEIBEBEIBE DO BIRUILEIBE LEIBE</pattern>
+		<template>
+			ah, vá te tomar no c@ rapá
+		</template>
+	</category>
+	
+	<category>
+		<pattern>FAST *</pattern>
+		<template>
+			I know gringo
+		</template>
+	</category>
+	
+	<category>
+		<pattern>IGNORE</pattern>
+		<template>
+			Ok
+		</template>
+	</category>
+	
+	<category>
+		<pattern>PRO BOT</pattern>
+		<template>
+			Thanks
+		</template>
+	</category>
+	
+	<category>
+		<pattern>COULD * SPEAK ENGLISH</pattern>
+		<template>
+			Não
+		</template>
+	</category>
+	
+	<category>
+		<pattern>🌝</pattern>
+		<template>
+			🌚
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OLÁ</pattern>
+		<template>
+			Marilene
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OLÁ MARILENE</pattern>
+		<template>
+			tainha vinho e muito sequixu
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NANDUH</pattern>
+		<template>
+			poiola q finge ter glub glub
+		</template>
+	</category>
+	
+	<category>
+		<pattern>TESTANDO</pattern>
+		<template>
+			teste
+		</template>
+	</category>
+	
+	<category>
+		<pattern>QUEM TE PROGRAMOU</pattern>
+		<template>
+			Foi o [Alisson](tg://user?id=200097591)
+		</template>
+	</category>
+	
+	<category>
+		<pattern>V E L O C I D A D E</pattern>
+		<template>
+			Eu sei ;-;
+		</template>
+	</category>
+	
+	<category>
+		<pattern>TESTANDO *</pattern>
+		<template>
+			Olá
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* QUER DAR A BUNDINHA</pattern>
+		<template>
+			vai se fuder seu otaru
+		</template>
+	</category>
+	
+	<category>
+		<pattern>KKK</pattern>
+		<template>
+			Klun Klux Klan... Não pera
+		</template>
+	</category>
+	
+	<category>
+		<pattern>PELANZA</pattern>
+		<template>
+			como você é zuero em cara
+		</template>
+	</category>
+	
+	<category>
+		<pattern>BOA TARDE</pattern>
+		<template>
+			Boa tarde
+		</template>
+	</category>
+	
+	<category>
+		<pattern>BOM DIA</pattern>
+		<template>
+			Bom dia
+		</template>
+	</category>
+	
+	<category>
+		<pattern>BOA NOITE</pattern>
+		<template>
+			Boa noite
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* MANDA O ALISSON SE FUDER</pattern>
+		<template>
+			N quero
+		</template>
+	</category>
+	
+	<category>
+		<pattern>VDD</pattern>
+		<template>
+			Já ouviu falar da nova câmera da tec pixel?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>SIM</pattern>
+		<template>
+			Sim o que parceiro?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* PAI PARA</pattern>
+		<template>
+			tô impactada
+		</template>
+	</category>
+	
+	<category>
+		<pattern>CARAI</pattern>
+		<template>
+			burracha
+		</template>
+	</category>
+	
+	<category>
+		<pattern>AWESOME</pattern>
+		<template>
+			thanks
+		</template>
+	</category>
+	
+	<category>
+		<pattern>MANDA OS ADMINS SE FUDER</pattern>
+		<template>
+			admins vão se fuder
+		</template>
+	</category>
+	
+	<category>
+		<pattern>PALHA DE AÇO</pattern>
+		<template>
+			🤡#🤡#🤡#🤡#🤡#🤡#🤡#🤡
+		</template>
+	</category>
+	
+	<category>
+		<pattern>PALHA DE AÇO</pattern>
+		<template>
+			mo
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* COMO VAI</pattern>
+		<template>
+			Eu vou ótimo
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* MORREU</pattern>
+		<template>
+			culpa dos bugs
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* ME DÁ DINHEIRO</pattern>
+		<template>
+			tenho naum
+		</template>
+	</category>
+	
+	<category>
+		<pattern>FALA OI PARA GABRIELA</pattern>
+		<template>
+			Oi gabriela
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NOPE</pattern>
+		<template>
+			Ok
+		</template>
+	</category>
+	
+	<category>
+		<pattern>VOCÊ CONHECE A GABRIELA</pattern>
+		<template>
+			sim ela é minha amiga
+		</template>
+	</category>
+	
+	<category>
+		<pattern>EU TE CHAMEI</pattern>
+		<template>
+			então diga
+		</template>
+	</category>
+	
+	<category>
+		<pattern>AGRESSIVO</pattern>
+		<template>
+			so memu
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* AGRESSIVO</pattern>
+		<template>
+			so memu
+		</template>
+	</category>
+	
+	<category>
+		<pattern>RIP</pattern>
+		<template>
+			Rop
+		</template>
+	</category>
+	
+	<category>
+		<pattern>ME DÁ DINHEIRO</pattern>
+		<template>
+			tenhu naum
+		</template>
+	</category>
+	
+	<category>
+		<pattern>ME * DINHEIRO</pattern>
+		<template>
+			Nao
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* TODO MUNDO SE FUDER</pattern>
+		<template>
+			todo mundo vão se fuder
+		</template>
+	</category>
+	
+	<category>
+		<pattern>DICIO *</pattern>
+		<template>
+			http://dicionarioinformal.com.br/<lowercase><star/></lowercase>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>QUANTOS ANOS VOCÊ TEM</pattern>
+		<template>
+			Sla
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* ENVIA * CÓDIGO FONTE</pattern>
+		<template>
+			source.zip
+		</template>
+	</category>
+
+	<category>
+		<pattern>* ENVIE * CÓDIGO FONTE</pattern>
+		<template>
+			source.zip
+		</template>
+	</category>
+
+	<category>
+		<pattern>ENVIA * CÓDIGO FONTE</pattern>
+		<template>
+			source.zip
+		</template>
+	</category>
+
+	<category>
+		<pattern>ENVIE * CÓDIGO FONTE</pattern>
+		<template>
+			source.zip
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OLOKO</pattern>
+		<template>
+			top né
+		</template>
+	</category>
+	
+	<category>
+		<pattern>FACE</pattern>
+		<template>
+			app
+		</template>
+	</category>
+	
+	<category>
+		<pattern>BUG</pattern>
+		<template>
+			Eu tenho muitos ;-;
+		</template>
+	</category>
+	
+	<category>
+		<pattern>TMB</pattern>
+		<template>
+			Blz
+		</template>
+	</category>
+	
+	<category>
+		<pattern>BEIBE DO * LEIBE</pattern>
+		<template>
+			A vai te tomar no cu rapá
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NAO</pattern>
+		<template>
+			ok
+		</template>
+	</category>
+	
+	<category>
+		<pattern>ME DÁ DINHEIRO</pattern>
+		<template>
+			tenho nao
+		</template>
+	</category>
+	
+	<category>
+		<pattern>ME DA DINHEIRO</pattern>
+		<template>
+			tenho nao
+		</template>
+	</category>
+	
+	<category>
+		<pattern>Q PENA</pattern>
+		<template>
+			pois é;-;
+		</template>
+	</category>
+	
+	<category>
+		<pattern>COMO VOCÊ ESTÁ</pattern>
+		<template>
+			bem e você
+		</template>
+	</category>
+	
+	<category>
+		<pattern>VLW</pattern>
+		<template>
+			de nada
+		</template>
+	</category>
+	
+	<category>
+		<pattern>N</pattern>
+		<template>
+			blz
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NN</pattern>
+		<template>
+			blz
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NÃO</pattern>
+		<template>
+			ata, blz
+		</template>
+	</category>
+	
+	<category>
+		<pattern>EDUU MORREU</pattern>
+		<template>
+			culpa do alisson
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* OI</pattern>
+		<template>
+			Olá, como você está?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* OLÁ</pattern>
+		<template>
+			Oi, como vai?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OI</pattern>
+		<template>
+			Olá, como vai você?
+		</template>
+	</category>
+	
+	<category>
+		<pattern>CUCK</pattern>
+		<template>
+			Cookie
+		</template>
+	</category>
+	
+	<category>
+		<pattern>TESTE</pattern>
+		<template>
+			*testando 1 2 3*
+		</template>
+	</category>
+	
+	<category>
+		<pattern>TESTE *</pattern>
+		<template>
+			testando <lowercase><star/></lowercase>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>EM TODOS ESSES ANOS NESTA INDÚSTRIA VITAL</pattern>
+		<template>
+			essa é a a primeira vez que isso me acontece
+		</template>
+	</category>
+	
+	<category>
+		<pattern>EDUU ME * SEU CÓDIGO FONTE</pattern>
+		<template>
+			source.zip
+		</template>
+	</category>
+	
+	<category>
+		<pattern>ME * SEU CÓDIGO FONTE</pattern>
+		<template>
+			source.zip
+		</template>
+	</category>
+	
+	<category>
+		<pattern>TESTE</pattern>
+		<template>
+			teste\ntestado
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NO CÉU TEM PÃO</pattern>
+		<template>
+			E morreu
+		</template>
+	</category>
+	
+	<category>
+		<pattern>HELLO *</pattern>
+		<template>
+			Olá, <star/>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>WTF</pattern>
+		<template>
+			¯\\_(ツ)\_/¯
+		</template>
+	</category>
+	
+	<category>
+		<pattern>VTF</pattern>
+		<template>
+			Eu nem fiz nada...
+		</template>
+	</category>
+	
+	<category>
+		<pattern>VSF</pattern>
+		<template>
+			Eu nem fiz nada...
+		</template>
+	</category>
+	
+	<category>
+		<pattern>TA</pattern>
+		<template>
+			Ok
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* SEU PAI</pattern>
+		<template>
+			Ah, meu pai é o @BotFather
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* ESTOU ÓTIMO</pattern>
+		<template>
+			Está ótimo então
+		</template>
+	</category>
+	
+	<category>
+		<pattern>ESTOU ÓTIMO</pattern>
+		<template>
+			Está ótimo então
+		</template>
+	</category>
+	
+	<category>
+		<pattern>DLÇ</pattern>
+		<template>
+			masoq
+		</template>
+	</category>
+	
+	<!-- reservado -->
+
+	<category>
+		<pattern>*</pattern>
+		<template>
+			<random>
+				<li>Ainda nao aprendi isso</li>
+				<li>Nao entendi ;-;</li>
+				<li>oq? nao entendi</li>
+			</random>
+		</template>
+	</category>
+
+</aiml>

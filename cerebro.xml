@@ -1,0 +1,19 @@
+<aiml version="2.0" encoding="UTF-8">
+
+    <category>
+        <pattern>LOAD PADRAO</pattern>
+        <template>
+			IA padrão recarregada com sucesso
+            <learn>aiml/padrao.aiml</learn>
+        </template>
+    </category>
+
+    <category>
+        <pattern>LOAD ANTIPEDRO</pattern>
+        <template>
+	        IA antipedro recarregada com sucesso
+            <learn>aiml/antipedro.aiml</learn>
+        </template>
+    </category>
+
+</aiml>

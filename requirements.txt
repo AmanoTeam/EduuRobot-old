@@ -1,0 +1,7 @@
+bs4
+pyfiglet
+python-aiml
+youtube-dl
+redis
+requests
+telepot

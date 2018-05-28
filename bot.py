@@ -588,6 +588,8 @@ ID: {2}'''.format(bt_name, bt_user, bt_id))
 		bvsetting = db.hget('bvsetting', str(chat_id))
 		if bvsetting == None:
 			chat_title = msg['chat']['title']
+			first_name = msg['new_chat_member']['first_name']
+			user_id = msg['new_chat_member']['id']
 			if msg['new_chat_member']['id'] == bot_id:
 				bot.sendMessage(
 					chat_id=chat_id,
@@ -600,8 +602,6 @@ ID: {2}'''.format(bt_name, bt_user, bt_id))
 Nome do grupo: {}
 ID do grupo: {}'''.format(msg['chat']['title'], msg['chat']['id']))
 			elif msg['chat']['id'] == -1001089627772 and msg['new_chat_member']['is_bot'] == False:
-				
-				first_name = msg['new_chat_member']['first_name']
 				welcome = 'Hi, {}!\nI\'ve just put you as admin in the group!'.format(first_name)
 				rules_markup = InlineKeyboardMarkup(inline_keyboard=[[dict(text='😄 Thanks!',callback_data='thanks')],[dict(text='Demote me',callback_data='demote')]])
 				bot.promoteChatMember(

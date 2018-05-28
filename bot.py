@@ -619,7 +619,7 @@ ID do grupo: {}'''.format(msg['chat']['title'], msg['chat']['id']))
 				if welcome != None:
 					welcome = welcome.decode('utf-8').replace('$name', md_utils.escape(first_name)).replace('$title', md_utils.escape(chat_title)).replace('$id', str(user_id))
 				else:
-					welcome = 'Olá *{}*, seja bem-vindo ao *{}*!'.format(first_name,md_utils.escape(chat_title))
+					welcome = 'Olá *{}*, seja bem-vindo(a) ao *{}*!'.format(first_name,md_utils.escape(chat_title))
 				if '$rules' in welcome:
 					welcome = welcome.replace('$rules', '')
 					rules_markup = InlineKeyboardMarkup(inline_keyboard=[

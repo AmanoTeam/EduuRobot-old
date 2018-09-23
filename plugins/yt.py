@@ -23,7 +23,6 @@ def search_query_yt(query):
 	soup = bs(page,"html.parser")
 	id_url = None
 	list_videos = []
-	max = 0
 	for link in soup.find_all('a'):
 		url = link.get('href')
 		title = link.get('title')
@@ -31,7 +30,7 @@ def search_query_yt(query):
 			id_url = url
 			dic = {'title':title,'url':url_yt+url}
 			list_videos.append(dic)
-			max +=1
-			if max == 10:
-				dic = {'bot_api_yt':list_videos}
-				return dic
+		else:
+			pass
+	dic = {'bot_api_yt':list_videos}
+	return dic

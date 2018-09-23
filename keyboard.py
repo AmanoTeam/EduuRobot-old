@@ -9,14 +9,15 @@ start = InlineKeyboardMarkup(inline_keyboard=[
 start_pv = InlineKeyboardMarkup(inline_keyboard=[
 	[dict(text='📚 Comandos', callback_data='all_cmds')]+
 	[dict(text='ℹ️ Informações', callback_data='infos')],
-	[dict(text='🔎 Modo inline', switch_inline_query_current_chat='/')],
-	[dict(text='➕ Me adicione em um grupo', url='https://t.me/EduuRobot?startgroup=new')]
+	[dict(text='➕ Add em um grupo', url='https://t.me/EduuRobot?startgroup=new')]+
+	[dict(text='⭐ Avaliar', url='https://t.me/storebot?start=EduuRobot')]
 ])
 
 all_cmds = InlineKeyboardMarkup(inline_keyboard=[
 	[dict(text='👮 Admins', callback_data='admin_cmds')]+
 	[dict(text='\ud83d\udc64 Usuários', callback_data='user_cmds')],
-	[dict(text='🔧 Ferramentas', callback_data='tools_cmds')],
+	[dict(text='🔧 Ferramentas', callback_data='tools_cmds')]+
+	[dict(text='🔎 Modo inline', switch_inline_query_current_chat='/')],
 	[dict(text='⬅️ Voltar', callback_data='start_back')]
 ])
 

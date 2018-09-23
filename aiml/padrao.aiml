@@ -18,7 +18,7 @@
 	<category>
 		<pattern>* SEU NOME</pattern>
 		<template>
-			meu nome ta ali no chat se voce n percebeu ._.
+			meu nome ta ali no chat se voce n percebeu .\_.
 		</template>
 	</category>
 
@@ -1531,6 +1531,41 @@
 		<pattern>DLÇ</pattern>
 		<template>
 			masoq
+		</template>
+	</category>
+	
+	<category>
+		<pattern>EDUU LIXO</pattern>
+		<template>
+			você
+		</template>
+	</category>
+	
+	<category>
+		<pattern>TAMBÉM NÃO</pattern>
+		<template>
+			ok
+		</template>
+	</category>
+	
+	<category>
+		<pattern>OBG *</pattern>
+		<template>
+			De nada
+		</template>
+	</category>
+	
+	<category>
+		<pattern>EDUU GABI</pattern>
+		<template>
+			somos amigos
+		</template>
+	</category>
+	
+	<category>
+		<pattern>PARA COM ESSA ^</pattern>
+		<template>
+			parei
 		</template>
 	</category>
 	

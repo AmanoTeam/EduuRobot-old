@@ -33,7 +33,7 @@ logs_id     = -1001297931062
 ia_chat     = -1001378862339
 ia_pattern  = r"\b(eduu)\b"
 
-version     = '5.2.5'
+version     = '5.2.6'
 db          = redis.StrictRedis(host='localhost', port=6379, db=0)
 print_msgs  = False
 k           = aiml.Kernel()

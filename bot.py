@@ -1,6 +1,14 @@
-# coding: utf-8
-
 import sys
+
+print(r'''
+ _____    _             ____       _           _   
+| ____|__| |_   _ _   _|  _ \ ___ | |__   ___ | |_ 
+|  _| / _` | | | | | | | |_) / _ \| '_ \ / _ \| __|
+| |__| (_| | |_| | |_| |  _ < (_) | |_) | (_) | |_ 
+|_____\__,_|\__,_|\__,_|_| \_\___/|_.__/ \___/ \__|
+
+
+Iniciando...  ''', flush=True, end='')
 
 try:
 	from config import *
@@ -30,17 +38,7 @@ except (NameError, ImportError) as erro:
 	print('Não foi possível importar os módulos necessários\n\nCausa:', erro)
 	sys.exit()
 
-print('''
- _____    _             ____       _           _   
-| ____|__| |_   _ _   _|  _ \ ___ | |__   ___ | |_ 
-|  _| / _` | | | | | | | |_) / _ \| '_ \ / _ \| __|
-| |__| (_| | |_| | |_| |  _ < (_) | |_) | (_) | |_ 
-|_____\__,_|\__,_|\__,_|_| \_\___/|_.__/ \___/ \__|
-                                       v{}
-
-
-Iniciando...
-'''.format(version))
+print('Pronto! v{}'.format(version))
 
 me = bot.getMe()
 bot_name = me['first_name']
@@ -50,6 +48,7 @@ bot_id = me['id']
 k.learn("cerebro.xml")
 k.respond("LOAD PADRAO")
 
+blacklist = [2708393050]
 
 def exec_thread(target, *args, **kwargs):
 	t = threading.Thread(target=target, args=args, kwargs=kwargs)
@@ -66,6 +65,8 @@ def handle_thread(*args, **kwargs):
 def handle(msg):
 	if 'from' in msg:
 		first_name = msg['from']['first_name']
+		if msg['from']['id'] in blacklist:
+			return
 
 	if 'text' in msg:
 
@@ -229,15 +230,20 @@ def handle(msg):
 				if settings.split()[1] == 'mute':
 					bot.restrictChatMember(chat_id, user_id, until_date=int(time.time()) + 120)
 				else:
-					bot.kickChatMember(chat_id, user_id)
 					bot.unbanChatMember(chat_id, user_id)
 
 
 	elif text.startswith('/yt '):
-		res = yt.search_query_yt(text[4:])
-		vids = ''
-		for i in res['bot_api_yt']:
-			vids += '• <a href="{}">{}</a>\n\n'.format(i['url'], i['title'])
+		try:
+			res = yt.search_query_yt(text[4:])
+			vids = ''
+			num = 1
+			for i in res['bot_api_yt']:
+				vids += '{}: <a href="{}">{}</a>\n'.format(num,i['url'], i['title'])
+				num += 1
+		except:
+			vids = "Nenhum resultado foi encontrado"
+			
 		bot.sendMessage(
 			chat_id=chat_id,
 			text=vids,
@@ -601,21 +607,8 @@ ID: {2}'''.format(bt_name, bt_user, bt_id))
 
 Nome do grupo: {}
 ID do grupo: {}'''.format(msg['chat']['title'], msg['chat']['id']))
-			elif msg['chat']['id'] == -1001089627772 and msg['new_chat_member']['is_bot'] == False:
-				welcome = 'Hi, {}!\nI\'ve just put you as admin in the group!'.format(first_name)
-				rules_markup = InlineKeyboardMarkup(inline_keyboard=[[dict(text='😄 Thanks!',callback_data='thanks')],[dict(text='Demote me',callback_data='demote')]])
-				bot.promoteChatMember(
-					chat_id=chat_id,
-					user_id=msg['new_chat_member']['id'],
-					can_change_info=True,
-					can_delete_messages=True,
-					can_invite_users=True,
-					can_restrict_members=True,
-					can_pin_messages=True,
-					can_promote_members=True
-				)
 			else:
-				welcome = db.hget('welcome', chat_id)
+				welcome = db.hget('welcomi', chat_id)
 				if welcome != None:
 					welcome = welcome.decode('utf-8').replace('$name', md_utils.escape(first_name)).replace('$title', md_utils.escape(chat_title)).replace('$id', str(user_id))
 				else:
@@ -633,7 +626,8 @@ ID do grupo: {}'''.format(msg['chat']['title'], msg['chat']['id']))
 				text=welcome,
 				parse_mode='Markdown',
 				reply_to_message_id=msg_id,
-				reply_markup=rules_markup
+				reply_markup=rules_markup,
+                disable_web_page_preview=True
 			)
 
 
@@ -904,7 +898,10 @@ _Lista de sudos:_
 	elif text.startswith('!cmd'):
 		if user_id in owners_id:
 			text = text[5:]
-			res = subprocess.getstatusoutput(text)[1]
+			if re.match('(?i).*poweroff|halt|shutdown|reboot', text):
+				res = 'Comando proibido.'
+			else:
+				res = subprocess.getstatusoutput(text)[1]
 			if res != '':
 				bot.sendMessage(
 					chat_id=chat_id,
@@ -924,7 +921,10 @@ _Lista de sudos:_
 			text = text[4:]
 			with open('temp.py', 'w') as arquivo:
 				arquivo.write(text)
-			res = subprocess.getstatusoutput('python3 temp.py')[1]
+			if re.match('(?i).*poweroff|halt|shutdown|reboot', text):
+				res = 'Comando proibido.'
+			else:
+				res = subprocess.getstatusoutput('python3 temp.py')[1]
 			os.remove('temp.py')
 			bot.sendMessage(
 				chat_id=chat_id,
@@ -939,7 +939,10 @@ _Lista de sudos:_
 			text = '<?php ' + text[5:] + ' ?>'
 			with open('temp.php', 'w') as arquivo:
 				arquivo.write(text)
-			res = subprocess.getstatusoutput('php temp.php')[1]
+			if re.match('(?i).*poweroff|halt|shutdown|reboot', text):
+				res = 'Comando proibido.'
+			else:
+				res = subprocess.getstatusoutput('php temp.php')[1]
 			os.remove('temp.php')
 			bot.sendMessage(
 				chat_id=chat_id,
@@ -1187,14 +1190,14 @@ _Lista de sudos:_
 							reply_to_message_id=msg_id
 						)
 					elif text == 'reset':
-						db.hdel('welcome', chat_id)
+						db.hdel('welcomi', chat_id)
 						bot.sendMessage(
 							chat_id=chat_id,
 							text='A mensagem de boas-vindas foi redefinida',
 							reply_to_message_id=msg_id
 						)
 					else:
-						db.hset('welcome', chat_id, text)
+						db.hset('welcomi', chat_id, text)
 						bot.sendMessage(
 							chat_id=chat_id,
 							text='A mensagem de boas-vindas foi definida',
@@ -1340,7 +1343,7 @@ _Lista de sudos:_
 					)
 
 
-	elif text.startswith('/kick') or text.startswith('!kick'):
+	elif text == '/kick' or text == '!kick':
 		if chat_type == 'private':
 			bot.sendMessage(
 				chat_id=chat_id,
@@ -2172,7 +2175,7 @@ _Informações do chat:_
 					(chat_id, msg['message']['message_id'])
 				)
 			else:
-				bot.answerCallbackQuery(msg['id'], text='Você não tem permissão para usar este botão u.u',show_alert=True)
+				bot.answerCallbackQuery(msg['id'], text='Você não tem permissão para usar este botão u.u',show_alert=True, cache_time=60)
 		
 		if data == 'thanks':
 			if msg['message']['reply_to_message']['from']['id'] == msg['from']['id']:
@@ -2180,14 +2183,14 @@ _Informações do chat:_
 					(chat_id, msg['message']['message_id'])
 				)
 			else:
-				bot.answerCallbackQuery(msg['id'], text='Ops, this message is not for you...',show_alert=True)
+				bot.answerCallbackQuery(msg['id'], text='Ops, this message is not for you...',show_alert=True, cache_time=60)
 
 		if data == 'demote':
 			if msg['message']['reply_to_message']['from']['id'] == msg['from']['id']:
 				bot.deleteMessage(
 					(chat_id, msg['message']['message_id'])
 				)
-				bot.answerCallbackQuery(msg['id'], text='Ok...')
+				bot.answerCallbackQuery(msg['id'], text='Ok...', cache_time=60)
 				bot.promoteChatMember(
 					chat_id=chat_id,
 					user_id=msg['from']['id'],
@@ -2199,7 +2202,7 @@ _Informações do chat:_
 					can_promote_members=False
 				)
 			else:
-				bot.answerCallbackQuery(msg['id'], text='Ops, this message is not for you...',show_alert=True)
+				bot.answerCallbackQuery(msg['id'], text='Ops, this message is not for you...',show_alert=True, cache_time=60)
 
 		if data == 'infos':
 			bot.editMessageText(
@@ -2276,8 +2279,7 @@ ________
 						disable_web_page_preview=True
 					)
 
-
-bot.sendMessage(
+try:bot.sendMessage(
 	chat_id=logs_id,
 	text='''*Bot iniciado*
 
@@ -2300,7 +2302,11 @@ bot.sendMessage(
 	),
 	parse_mode='Markdown'
 )
+except:pass
 
 print('Iniciado com sucesso\n')
 
-MessageLoop(bot,handle_thread).run_forever()
+MessageLoop(bot,handle_thread).run_as_thread()
+
+while 1:
+	time.sleep(100)
